@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "labs",
+  "info": {
+    "singularName": "lab",
+    "pluralName": "labs",
+    "displayName": "Lab",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "time": {
+      "type": "float"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "instructions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "instructions.instructions"
+    },
+    "number": {
+      "type": "integer"
+    },
+    "class": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::class.class"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "classes",
+  "info": {
+    "singularName": "class",
+    "pluralName": "classes",
+    "displayName": "Class",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bg": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "level": {
+      "type": "integer"
+    }
+  }
+}
