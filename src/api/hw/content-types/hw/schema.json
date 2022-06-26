@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hws",
+  "info": {
+    "singularName": "hw",
+    "pluralName": "hws",
+    "displayName": "hw",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "file": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "class": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::class.class"
+    },
+    "module": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::lab.lab"
+    }
+  }
+}
