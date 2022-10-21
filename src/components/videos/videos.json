@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_videos_videos",
+  "info": {
+    "displayName": "Videos",
+    "icon": "film"
+  },
+  "options": {},
+  "attributes": {
+    "loom": {
+      "type": "string"
+    },
+    "timestamps": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
