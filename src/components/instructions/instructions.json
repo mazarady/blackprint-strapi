@@ -2,7 +2,8 @@
   "collectionName": "components_instructions_instructions",
   "info": {
     "displayName": "instructions",
-    "icon": "list-ul"
+    "icon": "list-ul",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,12 @@
     },
     "steps": {
       "type": "richtext"
+    },
+    "videos": {
+      "displayName": "Videos",
+      "type": "component",
+      "repeatable": true,
+      "component": "videos.videos"
     }
   }
 }
