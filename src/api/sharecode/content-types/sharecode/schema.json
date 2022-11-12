@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "sharecodes",
+  "info": {
+    "singularName": "sharecode",
+    "pluralName": "sharecodes",
+    "displayName": "sharecode",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "json"
+    }
+  }
+}
