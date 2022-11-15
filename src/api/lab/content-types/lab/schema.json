@@ -33,6 +33,19 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::class.class"
+    },
+    "pythonfile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
