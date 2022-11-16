@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "submissionhistories",
+  "info": {
+    "singularName": "submissionhistory",
+    "pluralName": "submissionhistories",
+    "displayName": "Submissionhistory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "submissionhistories"
+    },
+    "sourcecode": {
+      "type": "string"
+    },
+    "lab": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::lab.lab"
+    }
+  }
+}
